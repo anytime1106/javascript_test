@@ -1,0 +1,36 @@
+{
+  "name": "gugudan",
+  "version": "1.0.0",
+  "description": "gugudan webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anytime1106/react-gugudan.git"
+  },
+  "author": "Kyle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anytime1106/react-gugudan/issues"
+  },
+  "homepage": "https://github.com/anytime1106/react-gugudan#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-syntax-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "react-hot-loader": "^4.12.21",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
